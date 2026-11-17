@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Un sitio web personal.">
+    <title>Mi sitio web</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="site-title" href="/" aria-label="Inicio">Mi sitio web</a>
+      <nav aria-label="Navegación principal">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro" aria-labelledby="intro-title">
+        <p class="eyebrow">Bienvenido</p>
+        <h1 id="intro-title">Un buen comienzo para tu sitio.</h1>
+        <p class="intro-copy">
+          Este espacio es tuyo. Agrega aquí una breve presentación y cuéntales
+          a tus visitantes qué encontrarán en esta página.
+        </p>
+        <a class="button" href="#sobre-mi">Conoce más</a>
+      </section>
+
+      <section class="content" id="sobre-mi" aria-labelledby="about-title">
+        <h2 id="about-title">Sobre mí</h2>
+        <p>
+          Reemplaza este texto con información sobre ti, tu proyecto o lo que
+          quieras compartir.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contacto">
+      <p>¿Hablamos? <a href="mailto:hola@ejemplo.com">hola@ejemplo.com</a></p>
+      <p class="copyright">&copy; <span id="year"></span> Mi sitio web</p>
+    </footer>
+  </body>
+</html>
